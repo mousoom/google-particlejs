@@ -12,6 +12,7 @@
   z-index: -1;
   height:100%;
 
+
 }
 .light-mode{
   background-color: #fff;
@@ -42,7 +43,13 @@
 
 .particles{
   z-index: 1;
-  position:relative;
+  height:100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
 } 
 .image{
   z-index: 10;
@@ -50,6 +57,7 @@
   top: 45%;
   left:50%;
   transform: translate(-50%,50%);
+
 }
 .img{
   height: 40px;
